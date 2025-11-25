@@ -1,40 +1,40 @@
 # 💰 Loan Payback Predicting System (Machine Learning + Streamlit)
 
-This project is a machine learning–powered web application built using Python, CatBoost, and Streamlit to predict the likelihood that a borrower will fully repay a loan.
+This project is a machine learning–powered web application built using **Python**, **CatBoost**, and **Streamlit** to predict the likelihood that a borrower will fully repay a loan.
 Users enter financial and credit-related information, and the model returns a probability score along with a repayment prediction.
 
 ## 🚀 Features
 
 - Predicts loan repayment probability using key financial indicators.
-- Built using a trained CatBoostClassifier.
-- Interactive UI created with Streamlit.
+- Built using a trained **CatBoostClassifier**.
+- Interactive UI created with **Streamlit**.
 - Automatic feature engineering (e.g., credit-to-DTI interaction).
 - Lightweight, fast, and deployable on any machine with Python.
-- Includes a pre-trained model: catboost_credit_model.pkl.
+- Includes a pre-trained model: `catboost_credit_model.pkl`.
 
 ## 📊 Input Parameters
 
 The app collects the following user inputs:
 
-- Debt-to-Income Ratio
-- Credit Score
-- Employment Status
+- **Debt-to-Income Ratio**
+- **Credit Score**
+- **Employment Status**
   - Employed
   - Unemployed
   - Self-Employed
   - Student
   - Other
-- Credit–DTI Interaction Feature
+- **Credit–DTI Interaction Feature**
   - Automatically calculated inside the app
 
 ## 🧰 Technologies Used
 
-- Python
-- CatBoost – Core ML Model
-- Pandas / NumPy – Data preprocessing
-- Streamlit – Web UI framework
-- Pickle – Model serialization
-- Jupyter Notebook – Model training & evaluation
+- **Python**
+- **CatBoost** – Core ML Model
+- **Pandas / NumPy** – Data preprocessing
+- **Streamlit** – Web UI framework
+- **Pickle** – Model serialization
+- **Jupyter Notebook** – Model training & evaluation
 
 ## 📁 Files Included
 
@@ -78,8 +78,8 @@ The app collects the following user inputs:
 
 ## 📸 Screenshots
 
-![image](./img/home_screen.png)
 ![image](./img/prediction.png)
+![image](./img/home_screen.png)
 
 ## 🤝 Contribution
 
