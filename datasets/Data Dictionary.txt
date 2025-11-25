@@ -1,0 +1,22 @@
+About Dataset
+
+id
+gender (category) – Borrower's gender (Male/Female).
+marital_status (category) – Marital status (Single, Married, Divorced).
+education_level (category) – Education level (High School, Bachelor, Master, PhD).
+annual_income (float64) – Borrower's yearly income.
+employment_status (category) – Current employment type (Employed, Self-Employed, Unemployed).
+debt_to_income_ratio (float64) – Ratio of borrower’s debt to their income. Lower = better.
+credit_score (int64) – Credit bureau score (e.g., FICO). Higher = less risky.
+loan_amount (float64) – Amount of loan taken.
+loan_purpose (category) – Loan purpose (Car, Education, Home, Medical, etc.).
+interest_rate (float64) – Loan par annual interest rate (%).
+grade_subgrade (category) – Risk category assigned to loan (A1, B2, etc.).
+
+Target Variable
+
+loan_paid_back (int64) – Target variable:
+
+1 → Borrower paid loan in full.
+
+0 → Borrower defaulted (did not repay fully).
