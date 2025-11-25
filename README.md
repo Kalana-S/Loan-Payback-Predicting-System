@@ -78,7 +78,10 @@ The app collects the following user inputs:
 
 ## 📸 Screenshots
 
+**Home Page**
 ![image](./img/prediction.png)
+
+**Prediction**
 ![image](./img/home_screen.png)
 
 ## 🤝 Contribution
