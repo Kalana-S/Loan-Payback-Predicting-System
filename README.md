@@ -68,7 +68,7 @@ The app collects the following user inputs:
    pip install -r requirements.txt
    ```
 
-4. Run the Flask app:
+4. Run the Streamlit:
 
    ```bash
    streamlit run streamlit_app.py
