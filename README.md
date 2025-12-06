@@ -1,6 +1,6 @@
 # 💰 Loan Payback Predicting System (Machine Learning + Streamlit)
 
-This project is a machine learning–powered **web application** built using **Python**, **CatBoost**, and **Streamlit** to predict the likelihood that a borrower will fully repay a loan.
+This project is a machine learning–powered web application built using **Python**, **CatBoost**, and **Streamlit** to predict the likelihood that a borrower will fully repay a loan.
 Users enter financial and credit-related information, and the model returns a probability score along with a repayment prediction.
 
 ## 🚀 Features
